@@ -52,11 +52,15 @@
 
   .grid { 
     display: grid; 
-    grid-template-columns: 1.1fr 2fr 1.1fr; 
-    grid-gap: 30px;
+    grid-template-columns: 320px 1fr 320px; 
+    grid-gap: 25px;
     aligh-items: start;
   }
   
+  .grid > div { 
+  min-width: 0; 
+}
+
   .box { 
     border: 1px solid #e0e0e0; 
     padding: 20px; 
