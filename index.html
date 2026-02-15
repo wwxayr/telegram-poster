@@ -18,7 +18,8 @@
     line-height: 1.4;
   }
   .poster { 
-    width: 1250px;
+    max-width: 1500px;
+    width: 95%;
     margin: 20px auto; 
     background: white; 
     padding: 35px; 
@@ -51,8 +52,9 @@
 
   .grid { 
     display: grid; 
-    grid-template-columns: 1fr 1.8fr 1fr; 
-    grid-gap: 25px; 
+    grid-template-columns: 1.1fr 2fr 1.1fr; 
+    grid-gap: 30px;
+    aligh-items: start;
   }
   
   .box { 
@@ -82,7 +84,8 @@
 
   .chart-item { text-align: center; }
   .chart-item img { 
-    width: 100%;
+    width: 95%;
+    max-width: 100%;
     height: auto; 
     border: 1px solid #ddd;
     border-radius: 5px;
